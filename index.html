@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balvion Workshop Project</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(145deg, #f7fbff, #eaf7ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      color: #123;
+    }
+    .card {
+      width: min(460px, 100%);
+      background: white;
+      border-radius: 28px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 18px 50px rgba(0, 70, 130, .14);
+    }
+    .logo {
+      width: 105px;
+      height: 105px;
+      object-fit: contain;
+      border-radius: 22px;
+      margin-bottom: 12px;
+    }
+    h1 { margin: 6px 0 8px; font-size: 28px; }
+    p { color: #587080; line-height: 1.5; }
+    .step {
+      text-align: left;
+      background: #f5faff;
+      border-radius: 18px;
+      padding: 16px;
+      margin: 14px 0;
+    }
+    .step strong { display: block; margin-bottom: 6px; }
+    .btn {
+      display: block;
+      text-decoration: none;
+      padding: 15px 18px;
+      border-radius: 14px;
+      font-weight: 700;
+      margin-top: 10px;
+      transition: transform .15s ease;
+    }
+    .btn:active { transform: scale(.98); }
+    .instagram { background: #111; color: white; }
+    .code { background: #0b78d0; color: white; }
+    .note { font-size: 13px; margin-top: 18px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="logo" src="balvion-logo.png" alt="Balvion logo">
+    <h1>Balvion Workshop Project</h1>
+    <p>Follow Balvion on Instagram, then access the workshop project code.</p>
+
+    <section class="step">
+      <strong>Step 1 — Follow Balvion</strong>
+      <span>Open our Instagram page and follow <b>@balvion_tech</b>.</span>
+      <a class="btn instagram" href="https://www.instagram.com/balvion_tech/" target="_blank" rel="noopener">Follow on Instagram ↗</a>
+    </section>
+
+    <section class="step">
+      <strong>Step 2 — Get the Project Code</strong>
+      <span>After following us, return here and open the project repository.</span>
+      <a class="btn code" href="https://github.com/balviontechnology/Balvion-QR-" target="_blank" rel="noopener">Get Project Code →</a>
+    </section>
+
+    <p class="note">You can download the project or clone it and open it in VS Code.</p>
+  </main>
+</body>
+</html>
